@@ -18,8 +18,8 @@ options:
     namespace: "azure.ai.projects.onedp"
     api-version: "2025-05-15-preview"
     flavor: azure
-    generate-test: true
-    generate-sample: true
+    generate-test: false
+    generate-sample: false
   "@azure-tools/typespec-csharp":
     package-mode: "dataplane"
     package-dir: "Azure.AI.Projects.OneDP"
@@ -30,7 +30,6 @@ options:
     flavor: azure
     generate-test: false
     generate-sample: false
-    clear-output-folder: true
   "@azure-tools/typespec-ts":
     package-dir: "ai-projects-1dp"
     api-version: "2025-05-15-preview"
