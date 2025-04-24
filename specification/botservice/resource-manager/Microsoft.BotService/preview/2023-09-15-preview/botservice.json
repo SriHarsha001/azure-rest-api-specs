@@ -2040,8 +2040,7 @@
       "properties": {
         "properties": {
           "$ref": "#/definitions/BotProperties",
-          "description": "The set of properties specific to bot resource",
-          "x-ms-client-flatten": true
+          "description": "The set of properties specific to bot resource"
         }
       },
       "allOf": [
@@ -2056,8 +2055,7 @@
       "properties": {
         "properties": {
           "$ref": "#/definitions/Channel",
-          "description": "The set of properties specific to bot channel resource",
-          "x-ms-client-flatten": true
+          "description": "The set of properties specific to bot channel resource"
         }
       },
       "allOf": [
@@ -2452,8 +2450,7 @@
       "properties": {
         "properties": {
           "$ref": "#/definitions/ConnectionSettingProperties",
-          "description": "The set of properties specific to bot channel resource",
-          "x-ms-client-flatten": true
+          "description": "The set of properties specific to bot channel resource"
         }
       },
       "allOf": [
@@ -3158,8 +3155,7 @@
       "properties": {
         "properties": {
           "$ref": "#/definitions/NetworkSecurityPerimeterConfigurationProperties",
-          "description": "Properties of the Network Security Perimeter configuration",
-          "x-ms-client-flatten": true
+          "description": "Properties of the Network Security Perimeter configuration"
         }
       },
       "allOf": [
